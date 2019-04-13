@@ -1,11 +1,7 @@
 {
-	"variants":
-	{
-		"normal":
-		[
-			{
-				"model": "supernaturalmod:witch_wood"
-			}
-		]
-	}
+    "variants": {
+        "axis=y":  { "model": "witch_wood" },
+        "axis=z":   { "model": "witch_wood", "x": 90 },
+        "axis=x":   { "model": "witch_wood", "x": 90, "y": 90 },
+		}
 }
