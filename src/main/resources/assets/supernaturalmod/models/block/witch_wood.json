@@ -1,7 +1,6 @@
 {
-    "parent": "block/cube_column",
-    "textures": {
-        "end": "blocks/witch_wood_top",
-        "side": "blocks/witch_wood"
-    }
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "supernaturalmod:blocks/witch_wood"
+	}
 }
