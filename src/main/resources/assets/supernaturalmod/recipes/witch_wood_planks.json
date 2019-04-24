@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [{
+		"item": "supernaturalmod:witch_wood"
+		}],
+	"result":{
+		"item": "supernaturalmod:witch_wood_planks",
+		"count": 4
+	}
+}

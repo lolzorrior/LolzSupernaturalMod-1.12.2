@@ -1,0 +1,11 @@
+{
+	"defaults": 
+	{
+		"model": "supernaturalmod:witch_wood_planks"
+	},
+	"variants": 
+	{ 
+		"normal": [{"model": "supernaturalmod:witch_wood_planks"}],
+		"inventory": [{"model": "supernaturalmod:witch_wood_planks"}]
+	}
+}
