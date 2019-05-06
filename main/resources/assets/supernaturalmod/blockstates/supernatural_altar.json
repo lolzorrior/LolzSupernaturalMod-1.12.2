@@ -1,0 +1,11 @@
+{
+	"defaults": 
+	{
+		"model": "supernaturalmod:supernatural_altar"
+	},
+	"variants": 
+	{ 
+		"normal": [{"model": "supernaturalmod:supernatural_altar"}],
+		"inventory": [{"model": "supernaturalmod:supernatural_altar"}]
+	}
+}

@@ -9,6 +9,7 @@ import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.Rotation;
@@ -29,6 +30,7 @@ public class BlockWitchWood extends BlockRotatedPillar
 		this.setHarvestLevel("axe", 2);
 		this.setSoundType(SoundType.WOOD);
 		this.blockHardness = 10f;
+		this.setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	}
 	
 	@Override

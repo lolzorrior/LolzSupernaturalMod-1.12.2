@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"side": "supernaturalmod:blocks/supernatural_altar",
+		"end": "supernaturalmod:blocks/supernatural_altar_top"
+	}
+}
