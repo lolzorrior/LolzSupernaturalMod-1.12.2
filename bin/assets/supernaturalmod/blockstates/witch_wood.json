@@ -1,0 +1,10 @@
+{
+	"variants": 
+	{
+		"axis=y": {"model": "supernaturalmod:witch_wood"},
+		"axis=z": {"model": "supernaturalmod:witch_wood", "x": 90},
+		"axis=x": {"model": "supernaturalmod:witch_wood", "x": 90, "y": 90},
+		"axis=none": {"model": "supernaturalmod:witch_wood"},
+		"inventory": {"model": "supernaturalmod:witch_wood"}
+	}
+}
