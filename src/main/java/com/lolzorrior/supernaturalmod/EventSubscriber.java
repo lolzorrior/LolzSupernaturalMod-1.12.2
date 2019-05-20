@@ -4,6 +4,7 @@ import com.lolzorrior.supernaturalmod.SupernaturalMod;
 import com.lolzorrior.supernaturalmod.block.BlockWitchWood;
 import com.lolzorrior.supernaturalmod.block.BlockWitchWoodPlanks;
 import com.lolzorrior.supernaturalmod.block.SupernaturalAltar;
+import com.lolzorrior.supernaturalmod.block.SupernaturalCrafting;
 import com.lolzorrior.supernaturalmod.init.ModBlocks;
 
 import net.minecraft.block.Block;
@@ -24,7 +25,8 @@ public final class EventSubscriber
 		{
 			new BlockWitchWood().setRegistryName("witch_wood").setUnlocalizedName(SupernaturalMod.MODID + ".witch_wood"),
 			new BlockWitchWoodPlanks().setRegistryName("witch_wood_planks").setUnlocalizedName(SupernaturalMod.MODID + ".witch_wood_planks"),
-			new SupernaturalAltar().setRegistryName("supernatural_altar").setUnlocalizedName(SupernaturalMod.MODID + ".supernatural_altar")
+			new SupernaturalAltar().setRegistryName("supernatural_altar").setUnlocalizedName(SupernaturalMod.MODID + ".supernatural_altar"),
+			new SupernaturalCrafting().setRegistryName("supernatural_crafting").setUnlocalizedName(SupernaturalMod.MODID + ".supernatural_crafting")
 		};
 		event.getRegistry().registerAll(blocks);
 	}
@@ -36,9 +38,9 @@ public final class EventSubscriber
 			{
 					new ItemBlock(ModBlocks.WITCH_WOOD).setRegistryName(ModBlocks.WITCH_WOOD.getRegistryName()),
 					new ItemBlock(ModBlocks.WITCH_WOOD_PLANKS).setRegistryName(ModBlocks.WITCH_WOOD_PLANKS.getRegistryName()),
-					new ItemBlock(ModBlocks.SUPERNATURAL_ALTAR).setRegistryName(ModBlocks.SUPERNATURAL_ALTAR.getRegistryName())
+					new ItemBlock(ModBlocks.SUPERNATURAL_ALTAR).setRegistryName(ModBlocks.SUPERNATURAL_ALTAR.getRegistryName()),
+					new ItemBlock(ModBlocks.SUPERNATURAL_CRAFTING).setRegistryName(ModBlocks.SUPERNATURAL_CRAFTING.getRegistryName())
 			};
 		event.getRegistry().registerAll(itemBlocks);
 	}
-	
 }

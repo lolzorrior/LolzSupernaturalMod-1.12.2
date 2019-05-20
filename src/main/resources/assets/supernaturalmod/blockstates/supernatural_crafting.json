@@ -1,0 +1,12 @@
+{
+	"defaults":
+	{
+		"model": "supernaturalmod:supernatural_crafting"
+	},
+	"variants":
+	{
+		"normal": { "model": "supernaturalmod:supernatural_crafting"},
+		"inventory": {"model": "supernaturalmod:supernatural_crafting"}
+	}
+}
+		

@@ -1,17 +1,19 @@
 package com.lolzorrior.supernaturalmod;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.lolzorrior.supernaturalmod.proxy.IProxy;
 
-import org.apache.logging.log4j.LogManager;
-
+import net.minecraft.client.Minecraft;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
 
 @Mod(modid = SupernaturalMod.MODID, name = SupernaturalMod.NAME, version = SupernaturalMod.VERSION, acceptedMinecraftVersions = SupernaturalMod.MC_VERSION)
 public class SupernaturalMod 
@@ -33,6 +35,7 @@ public class SupernaturalMod
 	{
 		proxy.preInit(event);
 	}
+
 	
 	@EventHandler
 	public void init (FMLInitializationEvent event)
@@ -45,5 +48,9 @@ public class SupernaturalMod
 	public void postInit(FMLPostInitializationEvent event)
 	{
 		proxy.postInit(event);
+	}
+	
+	public EntityPlayer getPlayer() {
+		return Minecraft.getMinecraft().player;
 	}
 }

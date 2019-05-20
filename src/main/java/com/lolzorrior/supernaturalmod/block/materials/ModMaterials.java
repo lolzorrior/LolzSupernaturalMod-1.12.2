@@ -2,6 +2,7 @@ package com.lolzorrior.supernaturalmod.block.materials;
 
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
 
 public class ModMaterials {
 
@@ -11,9 +12,14 @@ public class ModMaterials {
 	public static class ModMaterial extends Material {
 	
 		public ModMaterial(MapColor color) {
-		
 			super(color);
-	
+		}
+
+		public boolean isToolEffective(String type, IBlockState state)
+		{
+			if ("axe".equals(type))
+				return true;
+			else return false;
 		}
 	
 		@Override

@@ -25,6 +25,7 @@ public final class ClientEventSubscriber
 		};
 		registerModel(Item.getItemFromBlock(ModBlocks.WITCH_WOOD_PLANKS), 0);
 		registerModel(Item.getItemFromBlock(ModBlocks.SUPERNATURAL_ALTAR), 0);
+		registerModel(Item.getItemFromBlock(ModBlocks.SUPERNATURAL_CRAFTING), 0);
 	}
 	
 	private static void registerModel(Item item, int meta)

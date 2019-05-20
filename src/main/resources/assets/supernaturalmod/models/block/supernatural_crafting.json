@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"particle": "supernaturalmod:blocks/supernatural_crafting_front",
+		"down": "supernaturalmod:blocks/witch_wood_planks",
+		"up": "supernaturalmod:blocks/supernatural_crafting_top",
+		"north": "supernaturalmod:blocks/supernatural_crafting_front",
+		"east": "supernaturalmod:blocks/supernatural_crafting_side",
+		"south": "supernaturalmod:blocks/supernatural_crafting_side",
+		"west": "supernaturalmod:blocks/supernatural_crafting_front"
+	}
+}
