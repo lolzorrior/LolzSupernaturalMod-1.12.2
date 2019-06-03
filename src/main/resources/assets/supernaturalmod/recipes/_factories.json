@@ -1,0 +1,6 @@
+{
+	"recipes":
+	{
+		"recipe_altar": "com.lolzorrior.supernaturalmod.item.crafting.RecipeAltarFactory"
+	}
+}
